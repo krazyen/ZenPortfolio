@@ -1,0 +1,229 @@
+<html lang="en">
+    <head>
+        <meta charset= "utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kizen Yuson Website Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+<!-------------------------------------------------Button to Top------------------------------------------>
+<button onclick="topFunction()" id="myBtn" i class="fa-solid fa-angles-up"></i></button>
+      <div id="header">
+        <div class="topnav">
+          <nav>
+          <img src="images/zen.png" class="logo">
+          <ul id="sidemenu">
+           <li> <a href="#header">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#services">Services</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#contact">Contact</a></li>       
+           <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </div>
+        </nav>
+          <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi there!, <br> I'm <span>Kizen Yuson</span></h1>
+            <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+        </div>
+
+<!-------------------------------------------------ABOUTME------------------------------------------>
+      <div id="about">
+        <div class="topnav">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/pogi.jpg">
+              </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p class="pbout">I enjoy interacting with others. I wish to use my
+                technological expertise to help clients directly with
+                their problems. For those who encounter
+                difficulties, I want to be the one who makes their
+                lives simpler and more joyful.
+                </p>
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+                 <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Web Development</span><br>Web Interfaces and Design</li>
+                    <li><span>Wordpress</span><br>Page Builder Websites / E-commerce</li>
+                    <li><span>Tech Support</span><br>Client Satisfaction</li>
+                  </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>3KingsMediaSolutions</span><br>Web Development Using Elementor and Wordpress<br><br>Web Designing<br><br>Tech Support</li>
+                  </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                  <ul>
+                    <li><span>Elementary</span><br>Cabantian Elementary School (2012)</li>
+                    <li><span>High School</span><br>Holy Cross of Davao College(2012-2018)</li>
+                    <li><span>College</span><br>Holy Cross of Davao College(2018-2023)</li>
+                  </ul>
+                 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-------------------------------services------------------------------------------>
+<div id="services">
+  <div class="topnav">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-globe"></i>
+        <h2>Web Design</h2>
+        <p class="pserv">My goal as a web designer is to use my knowledge and abilities to create engaging
+           and visually appealing websites that have a beneficial influence on users, 
+           clients, and the Internet.</p>
+ <!---------<a href="#">Learn More</a>--------->
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p class="pserv"> Doing user experience and usability research on rival products. Developing wireframes, prototypes, and UX flows. coordinating with product managers, developers,
+           and other team members to guarantee that product designs are implemented correctly.</p>
+ <!---------<a href="#">Learn More</a>--------->
+      </div>
+      <div>
+        <i class="fa-solid fa-headset"></i>
+        <h2>Tech Support</h2>
+        <p class="pserv"> Installs, adjusts, and fixes small issues with computer hardware and software. In order to preserve productivity, resolves tickets that indicate requests or issues with technical support made by staff members and troubleshoots technical and 
+          procedural problems. conducts tests on computer components to maintain system functionality.</p>
+ <!---------<a href="#">Learn More</a>--------->
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------PORTFOLIO------------------------------------------>
+<div id="portfolio">
+  <div class="topnav">
+    <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+        <div class="work">
+          <img src="images/pentason.jpg">
+          <div class="layer">
+            <h3>Pentason Delivery Services</h3>
+            <p>We do same-day delivery service in Luzon, scheduled shipping for domestic and international transact</p>
+            <a href="https://pentason.co/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/AOP.jpg">
+          <div class="layer">
+            <h3>AOP Super Eco-bikes</h3>
+            <p>E-Bikes & Spareparts Dealer & Service Center</p>
+            <a href="http://superecobike.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="work">
+          <img src="images/NRDFAS.jpg">
+          <div class="layer">
+            <h3>NRD FashionWear </h3>
+            <p>IF LOW PRICE YOU ARE LOOKING FOR, IT'S HERE THERE IS A QUALITY YOU WILL NOT REGRET IN THE LONG RUN</p>
+            <a href="http://nrdfashionwear.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------CONTACT------------------------------------------>
+<div id="contact">
+  <div class="topnav">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>yusonkizen1999@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>09193531574</p>
+        <p><i class="fa-solid fa-house"></i>KM.10 Cabantian, Davao City, Philippines 8000</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31671.77418732173!2d125.59671740616464!3d7.129261593966474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96b885b3d3db7%3A0x4b44339f1c2d7a82!2sCabantian%2C%20Buhangin%2C%20Davao%20City%2C%20Davao%20del%20Sur!5e0!3m2!1sen!2sph!4v1699715696841!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/kzenysn"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://github.com/kizenyuson28"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form id ="form_submit">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2" button onclick="
+          myMssgBox()">Submit</button>
+        </form>
+    </div>
+  </div>
+</div>
+</div>
+<!-------------------------------Footer------------------------------------------>
+<div class="footer">
+  <p>Copyright © Kizen. My Portfolio</p>
+</div>
+
+<!------------------------------------SCRIPT---------------------------------------------->
+      <script>
+// Script for MySkills.
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+// Script for SideMenu.
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+          sidemenu.style.right = "0" ;        
+        }
+        function closemenu(){
+          sidemenu.style.right = "-240px" ;        
+        }
+// Script for ButtonToTop.
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+function myMssgBox() {
+  let form = document.getElementById("form_submit");
+  form.submit();
+  alert("Message Sent. Thank You!");
+}
+
+      </script>
+      
+    </body>
+</html>
